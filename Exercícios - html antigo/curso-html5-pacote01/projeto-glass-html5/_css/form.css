@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+form {
+    width: 500px;
+    margin:auto;
+}
+input, textarea {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size:13pt;
+    background-color: rgba(255,255,255,.5);
+/*  background-color: rgba(255,255,255, <<cor de fundo do formulário /- Transparência>> .5); */
+}
+input:hover, textarea:hover {
+    background-color: #dddddd;
+}
+legend {
+    color:#888888;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family:sans-serif;
+}
+fieldset {
+    border-color: #0000b5;
+    margin: 20px;
+}
+fieldset#sexo {
+    width: 150px;
+}
+fieldset#usuario {
+    background: url("/projeto-glass-html5/_imagens/icone-contato.png") no-repeat 95% 95%;
+    /*no-rept = não repetir imagem de fundo. Ex: 95% 95% distancia da imagem das bordas*/
+}
+fieldset#endereco {
+    background: url("/projeto-glass-html5/_imagens/icone-endereco.png") no-repeat 95% 95%;
+}
+fieldset#mensagem {
+    background: url("/projeto-glass-html5/_imagens/icone-mensagem.png") no-repeat 95% 95%;
+}
+fieldset#pedido {
+    background: url("/projeto-glass-html5/_imagens/icone-pagamento.png") no-repeat 95% 95%;
+}
